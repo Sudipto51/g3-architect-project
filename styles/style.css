@@ -264,6 +264,30 @@ nav li a {
     font-size: 1.25rem;
 }
 
+/* footer style  */
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: rgb(255, 244, 231);
+    margin-top: 140px;
+    margin-bottom: 216px;
+       
+
+}
+
+.footer-container h5{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    
+    
+
+}
 
 
 /* Responsive media query */
@@ -322,6 +346,13 @@ nav li a {
 
     .sponsor {
         padding: 20px;
+    }
+
+    .footer-container{
+        width: 75%;
+    }
+    .footer-container h5{
+        text-align: center;
     }
 
 
@@ -393,5 +424,12 @@ nav li a {
 
     .sponsor-image-container {
         gap: 20px;
+    }
+
+    .footer-container{
+        width: 75%;
+    }
+    .footer-container h5{
+        text-align: center;
     }
 }
